@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissors-Game</title>
+</head>
+<body>
+    <section class="container">
+        <div class="result_field">
+            <div class="result_imgs">
+                <span class="user_result">
+                    <img src="imgs/rock.png" alt="paper">
+                </span> 
+                <span class="cpu_result">
+                    <img src="imgs/rock.png" alt="rock">
+                </span>
+            </div>
+            <div class="result">Let's Play!!</div>
+        </div>
+
+        <div class="options_images">
+            <span class="option_image">
+                <img src="imgs/rock.png" alt="rock">
+                <p>Rock</p>
+            </span>
+            <span class="option_image">
+                <img src="imgs/paper.png" alt="paper">
+                <p>paper</p>
+            </span>
+            <span class="option_image">
+                <img src="imgs/scissors.png" alt="scissors">
+                <p>scissors</p>
+            </span>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+<!-- let imageSrc = e.target.querySelector("img").src;
+userResult.src = imageSrc;
+
+
+//Generate a random Number between 0 and 2
+let randomNumber = Math.floor(Math.random()*3);
+//create an array for cpu
+let cpuImage = ["imgs/rock.png","imgs/paper.png","imgs/scissors.png"]
+cpuResult.src = cpuImage[randomNumber];
+
+// assign a letter value to cpu option (r for rock , p for paper, s for scissors)
+let cpuValue = ["R","P","S"][randomNumber]
+// assign a letter value to clicked option (based on index)
+let userValue = ["R","P","S"][index]
+
+
+//create an object with all possible outcomes
+let outcomes = {
+    RR:"Draw",
+    RP:"Cpu",
+    RS:"User",
+    PP:"Draw",
+    PR:"User",
+    PS:"Cpu",
+    SS:"Draw",
+    SR:"Cpu",
+    SP:"User",
+}
+
+// look up the outcomes value based on user and cpu options
+let outcomesValue = outcomes[userValue + cpuValue];
+// Display the result
+result.textContent = userValue === cpuValue ? "Math Draw" : `${outcomesValue} Won!!` -->
